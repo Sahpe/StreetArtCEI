@@ -1,0 +1,19 @@
+<!-- bubble_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Adicione outros elementos, se necessário -->
+
+    <EditText
+        android:id="@+id/editTextInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva aqui..."
+        android:maxLines="5"
+        android:inputType="textMultiLine"
+        android:gravity="start"
+        android:scrollbars="vertical" />
+</LinearLayout>

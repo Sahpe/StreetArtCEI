@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/profile_icon"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedro Coe"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <!-- Logout button -->
+        <TextView
+            android:id="@+id/textViewLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Bio -->
+    <TextView
+        android:id="@+id/textViewBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="A arte é a nossa única salvação dos horrores da existência."
+        android:textSize="16sp"/>
+
+    <!-- Stats -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewFollowers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Followers: 10459"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pedrocoereboucas@gmail.com"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+
+    <!-- Interests -->
+    <TextView
+        android:id="@+id/textViewInterests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Interests: Android, Kotlin, Development"
+        android:textSize="16sp"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Augmented StreetArt CEI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_bottom_bar_home">Home</string>
+    <string name="menu_bottom_bar_favorite">Favoritos</string>
+    <string name="menu_bottom_bar_map">Mapa</string>
+    <string name="menu_bottom_bar_profile">Perfil</string>
+
+</resources>

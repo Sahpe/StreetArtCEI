@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "999701053801",
+    "firebase_url": "https://augmentedstreetart-59a73-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "augmentedstreetart-59a73",
+    "storage_bucket": "augmentedstreetart-59a73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999701053801:android:1a36120107b14773997df8",
+        "android_client_info": {
+          "package_name": "com.example.projeto_streetartcei"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8JF1RmrCmen4b7nXdjdJsI_4YYCMnmHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
